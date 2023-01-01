@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Card from './componets/Card';
 
 const SeventhSection = () => {
@@ -10,6 +11,14 @@ const SeventhSection = () => {
         <Card />
         <Card />
         <Card />
+      </div>
+      <div className="absolute left-[52.7vw] mt-[40px]">
+        <Image src="/Path 137.png" alt="me" width={40} height={40} />
+      </div>
+      <div className="flex justify-center items-center mt-[76px]">
+        <span className="text-sm font-black text-bluetext">
+          Pozrieť ďalšie blogy
+        </span>
       </div>
     </div>
   );

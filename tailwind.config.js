@@ -10,6 +10,7 @@ module.exports = {
         topbarcolor: '#FE9E6E',
         blacktint: '#525557',
         blactext: '#252122',
+        bluetext: '#0095a8',
       },
       fontFamily: {
         primary: ['Poppins', 'sans-serif'],

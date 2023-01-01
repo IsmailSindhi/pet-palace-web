@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function FifthSection() {
   return (
-    <div className="flex flex-col justify-center  mx-auto lg:flex-row xl:ml-[90px] xl:mr-[149px]">
+    <div className="flex flex-col justify-center lg:flex-row xl:ml-[90px] xl:mr-[149px]">
       <div className="flex justify-center items-center lg:mx-0 mt-2">
         <Image src="/dogy.png" alt="me" width={386} height={520} />
       </div>
@@ -11,7 +11,7 @@ function FifthSection() {
         <Image src="/r-line.png" alt="me" width={85} height={86} />
       </div>
       <div className="mt-2 lg:mt-[200px] xl:mt-[222px] lg:ml-8 xl:ml-[156px]">
-        <div className="h-[54px] w-[337px] flex justify-center items-center mx-auto lg:mx-0">
+        <div className="h-[54px] md:w-[337px] flex justify-center items-center mx-auto lg:mx-0">
           <span className="text-[24px] text-center lg:text-left text-blactext font-black">
             Hračky Toys, ktoré vyrastú s vašim miláčikom
           </span>
