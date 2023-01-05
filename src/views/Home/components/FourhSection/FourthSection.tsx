@@ -32,13 +32,14 @@ const FourthSection = () => {
     },
   ];
   return (
-    <div className="mx-[139px]">
-      <div className="flex justify-center mt-[90px] mb-[62px]">
+    <div className="">
+      <div className="relative mt-[90px] ml-[21.2%] md:ml-[41.2%]">
         <span className="text-[26px] text-center  text-blactext font-black">
           Najpredávane
         </span>
       </div>
-      <div className="flex items-center justify-center gap-4 flex-wrap">
+
+      <div className="flex items-center justify-center gap-4 flex-wrap mt-[62px]">
         {data.map(function (
           item // name: string, // description: string, // prize: string, // currency: string, // image: string
         ) {
@@ -64,6 +65,7 @@ const FourthSection = () => {
           );
         })}
       </div>
+
       <div className="flex justify-center items-center mt-[51px]">
         <Button
           text="Zobraziť produkty"

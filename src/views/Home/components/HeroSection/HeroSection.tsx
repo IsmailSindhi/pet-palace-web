@@ -1,5 +1,4 @@
 import WhiteButton from '@components/Button/WhiteButton';
-import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -9,7 +8,7 @@ const HeroSection = () => {
           <span className=" text-white text-3xl lg:text-[32px] font-black m-9 lg:m-0">
             To najlepšie <br></br> pre vášho miláčika
           </span>
-          <span className="text-white text-[14px] text-center lg:text-left  w-[305px] my-4 leading-6">
+          <span className="text-white text-[14px] text-center lg:text-left  lg:w-[305px] my-4 leading-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </span>
           <div className="my-[18px]">
@@ -17,9 +16,9 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center mt-10 lg:mt-6">
+      {/* <div className="flex items-center justify-center mt-10 lg:mt-6">
         <Image src="/Group 103.png" alt="me" width={106} height={12} />
-      </div>
+      </div> */}
     </div>
   );
 };

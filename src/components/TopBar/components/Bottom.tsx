@@ -31,7 +31,7 @@ const Bottom = () => {
         <div className="flex flex-row  items-center justify-between  border border-black rounded-full xl:w-[350px] xl:h-fit ">
           <div className=" md:ml-[17px]">
             <input
-              className="h-[15px] w-[200px] lg:w-full xl:w-[256px] mx-3"
+              className="h-[15px] w-[90%] md:w-[200px] lg:w-full xl:w-[256px] mx-3"
               placeholder="Hľadajte krmivo, hračky, ..."
             ></input>
           </div>

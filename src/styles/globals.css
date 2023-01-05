@@ -9,6 +9,7 @@
   body {
     @apply font-primary;
     @apply w-screen;
+    @apply overflow-x-hidden;
   }
 }
 * {
